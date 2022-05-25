@@ -43,7 +43,7 @@ else {
   $login = $_POST['login'];
   $pass =  $_POST['pass'];
 
-  $db = new PDO('mysql:host=localhost;dbname=u47566', $db_user, $db_pass, array(
+  $db = new PDO('mysql:host=localhost;dbname=u47539', $db_user, $db_pass, array(
     PDO::ATTR_PERSISTENT => true
   ));
 
